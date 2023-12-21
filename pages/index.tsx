@@ -1,10 +1,10 @@
+import { Main } from '@/components/Main';
 import React from 'react';
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to my portfolio!</h1>
-      <p>This is the home page.</p>
+      <Main />
     </div>
   );
 };

@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <button
           className="navbar-toggler ms-auto"
@@ -16,30 +18,30 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto fs-4">
             <li className="nav-item ms-auto">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link" aria-current="page" href="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item ms-auto">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" href="/#about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item ms-auto">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" href="/#projects">
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item ms-auto">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" href="/resume">
                 Resume
-              </a>
+              </Link>
             </li>
-            <li className="nav-item ms-auto">
+            {/* <li className="nav-item ms-auto">
               <a className="nav-link" href="#">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

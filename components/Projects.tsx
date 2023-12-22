@@ -53,10 +53,10 @@ const About = () => {
             }}
           >
             <Image
-              src="/assets/beecare.png"
+              src="/assets/beecarePic.png"
               className="card-img-top"
-              width={500}
-              height={100}
+              width={400}
+              height={150}
               alt="..."
             />
             <div className="card-body d-flex flex-column">

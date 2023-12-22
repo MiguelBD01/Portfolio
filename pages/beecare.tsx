@@ -48,7 +48,7 @@ const BeeCareIA = () => {
               model with Teachable Machine curating datasets of bee images.
             </li>
           </ul>
-          <h3>Images of project</h3>
+          <h3>Project showcase</h3>
           <h5 className="mt-2">Home page</h5>
           <Image
             src="/assets/InicioBeeCare.jpeg"

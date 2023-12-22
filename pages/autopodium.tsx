@@ -30,7 +30,7 @@ const Autopodium = () => {
               accurate, and aligned with the latest software iterations.
             </li>
           </ul>
-          <h3>Images of project</h3>
+          <h3>Project showcase</h3>
           <h5 className="mt-2">Home screen</h5>
           <Image
             src="/assets/HomeAutopodium.jpg"

@@ -10,10 +10,10 @@ const JointechHRM = () => {
           <h1 className="mb-3">JointechHRM</h1>
           <h3 className="mb-3">Overview</h3>
           <p>
-            Windows application designed to streamline and automate
-            administrative tasks within a car dealership environment,
-            facilitating employees&apos; management of car inventory through
-            intuitive and efficient tools.
+            Comprehensive Human Resource Management (HRM) system with an
+            integrated employee portal. This system aims to centralize and
+            streamline various HR processes while empowering employees with
+            self-service functionalities.
           </p>
           <h3 className="mb-3">Responsibilites</h3>
           <ul>

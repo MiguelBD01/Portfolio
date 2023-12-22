@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>My Portfolio</title>
+        <title>Miguel Bautista&apos;s Portfolio</title>
         <meta name="description" content="My portfolio website." />
         <link rel="icon" href="/favicon.ico" />
       </Head>

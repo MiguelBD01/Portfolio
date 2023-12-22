@@ -3,7 +3,11 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div id="about" className="container py-5 my-5" style={{ height: '100vh' }}>
+    <div
+      id="about"
+      className="container py-5 my-5"
+      style={{ minHeight: '100vh' }}
+    >
       <div className="row g-4 align-items-center justify-content-around py-5">
         <div className="col">
           <h3 className="text-primary">About</h3>

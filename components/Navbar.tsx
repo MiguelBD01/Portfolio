@@ -37,11 +37,6 @@ const Navbar = () => {
                 Resume
               </Link>
             </li>
-            {/* <li className="nav-item ms-auto">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>

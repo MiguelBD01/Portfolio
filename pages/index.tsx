@@ -6,6 +6,7 @@ import React from 'react';
 const Home: React.FC = () => {
   return (
     <div>
+      {'Test commit'}
       <Main />
       <About />
       <Projects />
